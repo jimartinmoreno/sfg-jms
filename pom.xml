@@ -19,22 +19,22 @@
     </properties>
 
     <dependencies>
-		<!-- Configura la dependencia para crear un cliente JMS -->
+        <!-- Configura la dependencia para crear un cliente JMS -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-artemis</artifactId>
         </dependency>
 
         <!-- Configura la dependencia para crear un servidor JMS embebido-->
-        <dependency>
-            <groupId>org.apache.activemq</groupId>
-            <artifactId>artemis-server</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.apache.activemq</groupId>
-            <artifactId>artemis-jms-server</artifactId>
-        </dependency>
-		<!-- Configura la dependencia para crear un servidor JMS embebido-->
+        <!--        <dependency>-->
+        <!--            <groupId>org.apache.activemq</groupId>-->
+        <!--            <artifactId>artemis-server</artifactId>-->
+        <!--        </dependency>-->
+        <!--        <dependency>-->
+        <!--            <groupId>org.apache.activemq</groupId>-->
+        <!--            <artifactId>artemis-jms-server</artifactId>-->
+        <!--        </dependency>-->
+        <!-- Configura la dependencia para crear un servidor JMS embebido-->
 
         <dependency>
             <groupId>org.springframework.boot</groupId>
